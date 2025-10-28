@@ -103,4 +103,4 @@ Explore farming practice impacts:
 
 🎚 Rainfall sensitivity slider
 
-Add screenshot here: ![Insights Tab UI](https://github.com/user-attachments/assets/517bfdc2-817b-453f-b0db-00e6fe38739d")
+Add screenshot here: ![Insights Tab UI](https://github.com/user-attachments/assets/049a1ea7-c4ea-4db0-afba-fe8cb4650867)
