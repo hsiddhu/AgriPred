@@ -1,0 +1,190 @@
+/* ------------------------------
+   Existing theme (your code)
+   ------------------------------ */
+
+/* Background image */
+[data-testid="stAppViewContainer"] {
+    background-image: url("https://images.unsplash.com/photo-1501004318641-b39e6451bec6");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Sidebar background in pastel mint */
+[data-testid="stSidebar"] {
+    background-color: #A8D5BA !important;
+    border-radius: 8px;
+    padding: 12px;
+}
+
+/* General text color */
+html, body, [class*="css"], .stApp {
+    color: #000000 !important;
+}
+
+/* Tabs */
+[data-testid="stTabs"] button[role="tab"] {
+    background-color: #C8E6C9 !important;
+    color: #000000 !important;
+    border-radius: 6px 6px 0 0;
+    margin-right: 4px;
+    padding: 6px 12px;
+}
+[data-testid="stTabs"] button[role="tab"][aria-selected="true"] {
+    background-color: #81C784 !important;
+    color: #000000 !important;
+    font-weight: bold;
+}
+
+/* Predict yield button */
+.stButton > button {
+    background-color: #81C784 !important;
+    color: #FFFACD !important;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 0.6em 1.2em;
+    border: none;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+}
+.stButton > button:hover {
+    background-color: #66BB6A !important;
+    color: #FFFACD !important;
+}
+
+/* Force all sidebar text to black */
+[data-testid="stSidebar"] * {
+    color: #000000 !important;
+}
+
+/* Sidebar input boxes */
+[data-testid="stSidebar"] input[type="number"],
+[data-testid="stSidebar"] .stNumberInput,
+[data-testid="stSidebar"] .stSelectbox,
+[data-testid="stSidebar"] .stCheckbox {
+    color: #000000 !important;
+    background-color: #C8E6C9 !important;
+    border-radius: 6px;
+    padding: 6px;
+    border: 1px solid #81C784;
+    font-weight: 500;
+}
+
+/* Sidebar labels */
+[data-testid="stSidebar"] label {
+    color: #000000 !important;
+    font-weight: 600;
+}
+
+/* Hide default +/- buttons */
+[data-testid="stSidebar"] input[type=number]::-webkit-inner-spin-button,
+[data-testid="stSidebar"] input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+[data-testid="stSidebar"] input[type=number] {
+    -moz-appearance: textfield;
+}
+
+/* Metric cards */
+div[data-testid="stMetric"] {
+    background-color: #A8D5BA !important;
+    border-radius: 10px !important;
+    padding: 16px !important;
+    margin: 8px !important;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15) !important;
+}
+div[data-testid="stMetric"] * {
+    color: #FFFFFF !important;
+}
+
+/* Rainfall Sensitivity label */
+div.stSlider label {
+    background-color: #81C784 !important;
+    color: #FFFFFF !important;
+    padding: 6px 12px !important;
+    border-radius: 6px !important;
+    font-weight: 600 !important;
+    display: inline-block !important;
+}
+
+/* Slider value bubble */
+div.stSlider div[data-baseweb="slider"] > div > div > div {
+    background-color: #A8D5BA !important;
+    color: #FFFFFF !important;
+    padding: 4px 8px !important;
+    border-radius: 6px !important;
+    font-weight: bold !important;
+    display: inline-block !important;
+}
+
+/* Style the native + and - buttons */
+[data-testid="stNumberInput"] button {
+    background-color: #D32F2F !important;
+    color: #FFFFFF !important;
+    border-radius: 4px !important;
+    font-weight: bold !important;
+    font-size: 16px !important;
+    width: 28px !important;
+    height: 28px !important;
+    margin: 2px !important;
+    border: none !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    cursor: pointer !important;
+}
+[data-testid="stNumberInput"] button:hover {
+    background-color: #B71C1C !important;
+}
+
+/* Slider filled track */
+div[data-baseweb="slider"] > div > div:nth-child(2) {
+    background: #D32F2F !important;
+}
+
+/* Slider unfilled track */
+div[data-baseweb="slider"] > div > div:nth-child(3) {
+    background: #C8E6C9 !important;
+}
+
+/* Slider handle */
+div[data-baseweb="slider"] [role="slider"] {
+    background: #D32F2F !important;
+    border: 2px solid #B71C1C !important;
+    box-shadow: 0 0 4px rgba(0,0,0,0.3) !important;
+}
+
+/* ------------------------------
+   Responsive adjustments
+   ------------------------------ */
+@media (max-width: 768px) {
+    /* Sidebar full width on mobile */
+    [data-testid="stSidebar"] {
+        width: 100% !important;
+        position: relative !important;
+    }
+
+    /* Tabs stack vertically */
+    [data-testid="stTabs"] button[role="tab"] {
+        flex: 1 1 100% !important;
+        margin-bottom: 6px !important;
+    }
+
+    /* Metrics stack vertically */
+    div[data-testid="stMetric"] {
+        width: 100% !important;
+        margin-bottom: 12px !important;
+    }
+
+    /* Buttons full width */
+    .stButton > button {
+        width: 100% !important;
+    }
+
+    /* Inputs full width */
+    [data-testid="stSidebar"] input,
+    [data-testid="stSidebar"] .stNumberInput,
+    [data-testid="stSidebar"] .stSelectbox {
+        width: 100% !important;
+    }
+}
