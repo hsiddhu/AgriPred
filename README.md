@@ -92,7 +92,7 @@ Styled with pastel green backgrounds and red +/– buttons.
 📊 Prediction Tab
 Displays predicted yield using a trained ML model.
 
-Add screenshot here: ![Prediction Tab UI](<img width="1358" height="612" alt="image" src="https://github.com/user-attachments/assets/00708e75-9af8-434a-bea5-d999f779fdee" />)
+Add screenshot here: ![Prediction Tab UI](<img width="1358" height="612" alt="image" src="https://github.com/user-attachments/assets/00708e75-9af8-434a-bea5-d999f779fdee"/>)
 
 🔍 Insights Tab
 Explore farming practice impacts:
@@ -103,5 +103,5 @@ Explore farming practice impacts:
 
 🎚 Rainfall sensitivity slider
 
-Add screenshot here: ![Insights Tab UI](<img width="1353" height="610" alt="image" src="https://github.com/user-attachments/assets/517bfdc2-817b-453f-b0db-00e6fe38739d" />
+Add screenshot here: ![Insights Tab UI](<img width="1353" height="610" alt="image" src="https://github.com/user-attachments/assets/517bfdc2-817b-453f-b0db-00e6fe38739d"/>
 )
