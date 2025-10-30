@@ -6,6 +6,10 @@
 [![Responsive UI](https://img.shields.io/badge/UI-Responsive-lightgreen)](#)
 [![Model: Scikit-learn](https://img.shields.io/badge/Model-Scikit--learn-orange?logo=scikit-learn)](https://scikit-learn.org/)
 
+
+[![Open in Streamlit](https://img.shields.io/badge/Launch-App-green?logo=streamlit)](https://agripred-hhofqy55gddfxyvtnkshxe.streamlit.app/)
+
+
 **AgriPred** is a student-led, AI-powered web app that predicts crop yield based on environmental and farming inputs. Built with Streamlit, it blends machine learning with a responsive, pastel-themed UI to deliver real-time insights for students, farmers, and educators.
 
 ---
